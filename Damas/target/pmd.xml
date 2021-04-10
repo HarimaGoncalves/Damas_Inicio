@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2021-04-09T19:23:27.172">
+<file name="C:\Users\harim\Damas\src\main\java\damas\Interface_tabuleiro.java">
+<violation beginline="313" endline="313" begincolumn="31" endcolumn="39" rule="UselessParentheses" ruleset="Code Style" package="damas" class="Interface_tabuleiro" method="paint" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="317" endline="317" begincolumn="31" endcolumn="39" rule="UselessParentheses" ruleset="Code Style" package="damas" class="Interface_tabuleiro" method="paint" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="327" endline="327" begincolumn="37" endcolumn="45" rule="UselessParentheses" ruleset="Code Style" package="damas" class="Interface_tabuleiro" method="paint" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="327" endline="327" begincolumn="56" endcolumn="64" rule="UselessParentheses" ruleset="Code Style" package="damas" class="Interface_tabuleiro" method="paint" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="386" endline="386" begincolumn="31" endcolumn="46" rule="UselessParentheses" ruleset="Code Style" package="damas" class="Interface_tabuleiro" method="paint" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\harim\Damas\src\main\java\damas\Tabuleiro.java">
+<violation beginline="139" endline="139" begincolumn="53" endcolumn="69" rule="BooleanInstantiation" ruleset="Performance" package="damas" class="Tabuleiro" method="explora_jogada_peca_movendo" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_performance.html#booleaninstantiation" priority="2">
+Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+</violation>
+<violation beginline="143" endline="143" begincolumn="53" endcolumn="70" rule="BooleanInstantiation" ruleset="Performance" package="damas" class="Tabuleiro" method="explora_jogada_peca_movendo" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_performance.html#booleaninstantiation" priority="2">
+Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+</violation>
+<violation beginline="183" endline="183" begincolumn="53" endcolumn="69" rule="BooleanInstantiation" ruleset="Performance" package="damas" class="Tabuleiro" method="explora_jogada_peca_movendo" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_performance.html#booleaninstantiation" priority="2">
+Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+</violation>
+<violation beginline="187" endline="187" begincolumn="53" endcolumn="70" rule="BooleanInstantiation" ruleset="Performance" package="damas" class="Tabuleiro" method="explora_jogada_peca_movendo" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_performance.html#booleaninstantiation" priority="2">
+Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+</violation>
+<violation beginline="227" endline="227" begincolumn="55" endcolumn="72" rule="BooleanInstantiation" ruleset="Performance" package="damas" class="Tabuleiro" method="explora_jogada_dama_movendo" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_performance.html#booleaninstantiation" priority="2">
+Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+</violation>
+<violation beginline="342" endline="342" begincolumn="49" endcolumn="65" rule="BooleanInstantiation" ruleset="Performance" package="damas" class="Tabuleiro" method="explora_jogada_peca_comendo" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_performance.html#booleaninstantiation" priority="2">
+Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+</violation>
+<violation beginline="355" endline="355" begincolumn="21" endcolumn="23" rule="UnusedLocalVariable" ruleset="Best Practices" package="damas" class="Tabuleiro" method="explora_jogada_dama_comendo" variable="val" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'val'.
+</violation>
+<violation beginline="375" endline="451" begincolumn="21" endcolumn="31" rule="CollapsibleIfStatements" ruleset="Design" package="damas" class="Tabuleiro" method="explora_jogada_dama_comendo" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#collapsibleifstatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="378" endline="451" begincolumn="23" endcolumn="28" rule="CollapsibleIfStatements" ruleset="Design" package="damas" class="Tabuleiro" method="explora_jogada_dama_comendo" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#collapsibleifstatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="382" endline="451" begincolumn="25" endcolumn="25" rule="CollapsibleIfStatements" ruleset="Design" package="damas" class="Tabuleiro" method="explora_jogada_dama_comendo" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_design.html#collapsibleifstatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="480" endline="480" begincolumn="49" endcolumn="65" rule="BooleanInstantiation" ruleset="Performance" package="damas" class="Tabuleiro" method="explora_jogada_dama_comendo" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_performance.html#booleaninstantiation" priority="2">
+Avoid instantiating Boolean objects; reference Boolean.TRUE or Boolean.FALSE or call Boolean.valueOf() instead.
+</violation>
+</file>
+</pmd>
